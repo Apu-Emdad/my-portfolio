@@ -1,0 +1,17 @@
+.project {
+  height: 108vh;
+
+  background-color: #072020;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.project-img {
+  height: 70vh;
+  overflow: hidden;
+}
+
+.project-img:hover img {
+  animation: img-transform 2s ease forwards;
+}
