@@ -15,13 +15,17 @@ const Contact = () => {
         "user_PRYVgha56VM6gPLd2Eh7a"
       )
       .then((res) => {
-        console.log(res);
+        // console.log(res);
+        if (res.status === 200) {
+          alert("Message sent successfully");
+        }
         nameRef.current.value = "";
         emailRef.current.value = "";
         messageRef.current.value = "";
       })
       .catch((err) => {
         console.log(err);
+        alert("Failed to send. Please try again");
       });
     e.preventDefault();
   };

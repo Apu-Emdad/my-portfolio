@@ -1,6 +1,6 @@
 import React from "react";
 import "./Portfolio.css";
-import foodDelivery from "../assets/images/food-delivery-1c9a3.web.app_.png"
+import foodDelivery from "../assets/images/food-delivery-1c9a3.web.app_.png";
 import bikersbd from "../assets/images/bikersbd-f97ab.web.app_.png";
 import tourBee from "../assets/images/tour-bee-58ecd.web.app_.png";
 import curePoint from "../assets/images/curepoint-clinic.web.app_home.png";
@@ -30,7 +30,7 @@ const Portfolio = () => {
                 <Link
                   className="d-block"
                   style={{ textDecoration: "none" }}
-                  to="/projectdetail0"
+                  to="/project-detail-food-delivery"
                 >
                   Details
                 </Link>
@@ -55,7 +55,7 @@ const Portfolio = () => {
                 <Link
                   className="d-block"
                   style={{ textDecoration: "none" }}
-                  to="/projectdetail1"
+                  to="/project-detail-BikersBD"
                 >
                   Details
                 </Link>
@@ -80,7 +80,7 @@ const Portfolio = () => {
                 <Link
                   className="d-block"
                   style={{ textDecoration: "none" }}
-                  to="/projectdetail2"
+                  to="/project-detail-TourGo"
                 >
                   Details
                 </Link>
@@ -105,7 +105,7 @@ const Portfolio = () => {
                 <Link
                   className="d-block"
                   style={{ textDecoration: "none" }}
-                  to="/projectdetail3"
+                  to="/project-detail-curepoint"
                 >
                   Details
                 </Link>

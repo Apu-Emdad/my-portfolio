@@ -1,11 +1,11 @@
 import React from "react";
 import image from "../../assets/images/tour-bee-58ecd.web.app_.png";
 
-const Project2 = () => {
+const TourGo = () => {
   return (
     <div className="project text-light">
       <div className="container">
-        <div className="row g-5">
+        <div className="row g-5 ">
           <div
             className="col-md-6"
             style={{
@@ -39,17 +39,19 @@ const Project2 = () => {
                 </a>
               </div>
               <div>
-                <ul style={{ listStyle: "none", textAlign: "left" }}>
+                <ul style={{ listStyle: "outside", textAlign: "left" }}>
                   <li>
                     {" "}
-                    • Firebase based authentication system is provided (Google
-                    and Email)
+                    Firebase based authentication system is provided (Google and
+                    Email)
                   </li>
-                  <li>• User can order and delete the services.</li>
+                  <li>
+                    Users can order and delete the orders. Admins can approve
+                    and delete services.
+                  </li>
 
                   <li>
-                    • React, React Router, Firebase, Node JS, Express JS,
-                    MongoDB
+                    React, React Router, Firebase, Node JS, Express JS, MongoDB
                   </li>
                 </ul>
               </div>
@@ -64,4 +66,4 @@ const Project2 = () => {
   );
 };
 
-export default Project2;
+export default TourGo;

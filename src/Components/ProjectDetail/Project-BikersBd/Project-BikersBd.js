@@ -2,11 +2,11 @@ import React from "react";
 
 import "./Project.css";
 import image from "../../assets/images/bikersbd-f97ab.web.app_.png";
-const Project1 = () => {
+const BikersBD = () => {
   return (
     <div className="project text-light">
-      <div className="container">
-        <div className="row g-5">
+      <div className="container ">
+        <div className="row g-5 ">
           <div
             className="col-md-6"
             style={{
@@ -40,18 +40,24 @@ const Project1 = () => {
                 </a>
               </div>
               <div>
-                <ul style={{ listStyle: "none", textAlign: "left" }}>
+                <ul style={{ listStyle: "outside", textAlign: "left" }}>
                   <li>
-                    {" "}
-                    • Firebase based authentication system is provided (Google
-                    and Email)
+                    This is a small-scale e-commerce project that sells bikes
                   </li>
-                  <li>• UserRoute and AdminRoute is created.</li>
-                  <li> • Admin can approve, delete and make admin</li>
-                  <li>• User can order and cancel order after logged in.</li>
                   <li>
-                    • React, React Router, Firebase, Node JS, Express JS,
-                    MongoDB
+                    Firebase based authentication system is applied (Google and
+                    Gmail). The admins have protected route. Both users and
+                    admins have different dashboard regarding their actions.
+                  </li>
+
+                  <li>
+                    Users can order bikes and add reviews after they logged in.
+                    Admins can ship or delete the orders. The admins also can
+                    make new admin
+                  </li>
+                  <li>
+                    Technologies: React JS, Firebase Authentication, React
+                    Bootstrap, Node JS, MongoDB, Express JS.
                   </li>
                 </ul>
               </div>
@@ -66,4 +72,4 @@ const Project1 = () => {
   );
 };
 
-export default Project1;
+export default BikersBD;

@@ -4,13 +4,13 @@ import Header from "./Components/Header/Header";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./Components/Home/Home";
-import Project1 from "./Components/ProjectDetail/Project1/Project1";
-import Project2 from "./Components/ProjectDetail/Project2/Project2";
-import Project3 from "./Components/ProjectDetail/Project3/Project3";
-import Project4 from "./Components/ProjectDetail/Project4/Project4";
+import BikersBD from "./Components/ProjectDetail/Project-BikersBd/Project-BikersBd";
+import TourGo from "./Components/ProjectDetail/Project-TourGo/Project-TourGo";
+import CurePoint2 from "./Components/ProjectDetail/Project-CurePoint2/Project-CurePoint";
+
 import About from "./Components/About/About";
 import Blog from "./Components/Blog/Blog";
-import Project0 from "./Components/ProjectDetail/Project0/Project0";
+import FoodDelivery from "./Components/ProjectDetail/Project-food-delivery/Project-food-delivery";
 
 function App() {
   return (
@@ -27,21 +27,19 @@ function App() {
           <Route path="/about">
             <About></About>
           </Route>
-          <Route path="/projectdetail0">
-            <Project0></Project0>
+          <Route path="/project-detail-food-delivery">
+            <FoodDelivery></FoodDelivery>
           </Route>
-          <Route path="/projectdetail1">
-            <Project1></Project1>
+          <Route path="/project-detail-BikersBD">
+            <BikersBD></BikersBD>
           </Route>
-          <Route path="/projectdetail2">
-            <Project2></Project2>
+          <Route path="/project-detail-TourGo">
+            <TourGo></TourGo>
           </Route>
-          <Route path="/projectdetail3">
-            <Project3></Project3>
+          <Route path="/project-detail-curepoint">
+            <CurePoint2></CurePoint2>
           </Route>
-          <Route path="/projectdetail4">
-            <Project4></Project4>
-          </Route>
+
           <Route path="/blog">
             <Blog></Blog>
           </Route>

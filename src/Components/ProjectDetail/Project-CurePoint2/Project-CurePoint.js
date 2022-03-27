@@ -1,11 +1,11 @@
 import React from "react";
 import image from "../../assets/images/curepoint-clinic.web.app_home.png";
 
-const Project3 = () => {
+const CurePoint2 = () => {
   return (
     <div className="project text-light">
       <div className="container">
-        <div className="row g-5">
+        <div className="row g-5 mt-2">
           <div
             className="col-md-6"
             style={{
@@ -52,4 +52,4 @@ const Project3 = () => {
   );
 };
 
-export default Project3;
+export default CurePoint2;
