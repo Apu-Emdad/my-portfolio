@@ -31,32 +31,50 @@ const Intro = () => {
           />
         </div>
         <div className="col-md-6 p-5 right">
-          <h2>Hi There, I'm</h2>
-          <h1>Emdadul Haque</h1>
+          <div>
+            <h2>Hi There, I'm</h2>
+            <h1>Emdadul Haque</h1>
+          </div>
           <div>
             <h3>
               <span ref={textRef}></span>
             </h3>
           </div>
-          <i class="far fa-envelope text-primary"> apuemdad96@gmail.com</i>
-          <div>
-            <a href="https://github.com/Apu-Emdad" className="px-5">
-              <i class="fab fa-github"></i>
-            </a>
+          <div className=" d-flex justify-content-center">
+            <div className="text-start">
+              <div>
+                <a href="#">
+                  <i class="far fa-envelope text-primary pe-2"></i>
+                  <span>EmdadulHaqueOfficial@gmail.com</span>
+                </a>
+              </div>
 
-            <a
-              href="https://www.linkedin.com/in/emdadul-haque-software-developer/"
-              className="px-5"
-            >
-              <i class="fab fa-linkedin"></i>
-            </a>
+              <div>
+                <a href="https://github.com/Apu-Emdad" className="">
+                  <i class="fab fa-github pe-2"></i>
+
+                  <span>https://github.com/Apu-Emdad</span>
+                </a>
+              </div>
+
+              <div>
+                <a
+                  href="https://www.linkedin.com/in/emdadul-haque-software-developer/"
+                  className=""
+                >
+                  <i class="fab fa-linkedin pe-2"></i>
+                  <span>http://www.linkedin.com/in/apu-emdad</span>
+                </a>
+              </div>
+            </div>
           </div>
-          <a
-            href="https://drive.google.com/file/d/1tO13p6ubYoVZ8r4Pd2xhTbUEVhvbtLsZ/view"
-            download
-          >
-            <button className="btn btn-danger mt-5 "> Download Resume</button>
-          </a>
+          <div className="mt-3">
+            <a href="https://drive.google.com/file/d/1bXMQQ9JCSdVrynr_bsjhQzV29DGkFRoM/view?usp=sharing">
+              <button className="w-50 btn btn-danger  ">
+                Download Resume{" "}
+              </button>
+            </a>{" "}
+          </div>
         </div>
       </div>
     </div>
